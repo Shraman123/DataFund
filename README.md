@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>💰 DataFund</h1>
+  <p><strong>Own the Internet. Invest in high-yield data infrastructure projects from ₹5,000.</strong></p>
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg?style=for-the-badge&logo=next.js)](#)
+  [![TailwindCSS](https://img.shields.io/badge/Tailwind-v4-38B2AC.svg?style=for-the-badge&logo=tailwind-css)](#)
+  [![ShadCN](https://img.shields.io/badge/Shadcn-UI-blue?style=for-the-badge)](#)
+  [![Supabase](https://img.shields.io/badge/Supabase-Backend-green?style=for-the-badge&logo=supabase)](#)
+</div>
 
-## Getting Started
+<br />
 
-First, run the development server:
+## 🌟 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+DataFund is a simulation MVP of a modern fintech platform geared toward retail investors who want to fund data centers and edge infrastructure projects. Taking design cues from premium platforms like **Stripe** and **Zerodha**, it delivers a seamless, high-end experience for hypothetical portfolio management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **Simulation Disclaimer**: This platform is designed for demonstration purposes only. All projects, investments, user data, and financial returns shown are fictional. **Do not enter real payment information**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Fintech Grade Design:** Crisp dark blue (`#0A2540`) and cyan (`#00D4FF`) color palettes combined with soft shadows and interactive elements.
+- **Dynamic Charting:** Interactive portfolio growth visualization powered by `recharts`.
+- **AI Risk Engine:** Simulated logic mapping "Risk Scores" to investment volatility—higher risk brings wilder curves.
+- **Mock Investment Flow:** End-to-end "Invest Now" interface without the legal overhead.
+- **Admin Dashboard:** Simulated tools to manage projects and monitor active users.
 
-## Learn More
+## 🧱 Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Architecture | Technologies |
+| :--- | :--- |
+| **Frontend** | Next.js (App Router), React |
+| **Styling** | Tailwind CSS v4, Custom CSS variables |
+| **Components** | Shadcn UI, Lucide React (Icons) |
+| **Charts** | Recharts |
+| **Backend & Auth** | Supabase (Client prep completed) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To get the simulation up and running on your local machine:
 
-## Deploy on Vercel
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Shraman123/DataFund.git
+   cd DataFund
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+4. **Explore the app**
+   Navigate to `http://localhost:3000` to interact with the mock portfolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design Philosophy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+DataFund prioritizes trust and visual excellence. The "AI Risk Engine" isn't merely functional; it defines the narrative rhythm of the interactive charts. The interface relies on spacious layouts, readable Google Fonts (`Inter`), and interactive feedback (hover states, subtle badges) to create a lively but professional ecosystem.
+
+---
+<div align="center">
+  <sub>Built for demonstration and prototyping</sub>
+</div>
